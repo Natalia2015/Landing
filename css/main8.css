@@ -1,0 +1,124 @@
+ul {
+  list-style-type: none;
+  flex-basis: 40%; }
+  ul li {
+    display: inline-block; }
+    ul li a {
+      color: white;
+      font: 1.1em Helvetica;
+      text-decoration: none;
+      display: block;
+      padding: 2px 3px; }
+      ul li a:hover {
+        color: black; }
+
+.mb30 {
+  margin-bottom: 70px; }
+
+.wrap1 {
+  position: relative; }
+  .wrap1:hover .wrap2 {
+    display: block; }
+
+.wrap2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 69, 69, 0.3);
+  z-index: 999;
+  display: none; }
+
+.logo {
+  padding: 20px 20px;
+  font-size: 18px;
+  font: Helvetica;
+  color: white;
+  border: black 0.5 solid;
+  background-color: #CCC;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  vertical-align: middle; }
+
+.first {
+  border-color: black;
+  background-color: #CCC; }
+
+.btn1 {
+  padding: 20px 20px;
+  font-size: 18px;
+  font: Helvetica;
+  color: #CCC;
+  border: black 0.5 solid;
+  background-color: #000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  flex-basis: 15%;
+  margin: 20px 20px;
+  text-align: center;
+  vertical-align: middle;
+  border: none; }
+
+.btn2 {
+  padding: 20px 20px;
+  font-size: 18px;
+  font: Helvetica;
+  color: black;
+  border: black 0.5 solid;
+  background-color: #CCC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  flex-basis: 15%;
+  margin: 20px 20px;
+  text-align: center;
+  vertical-align: middle; }
+
+.container1 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #857868; }
+
+.container {
+  height: 700px; }
+
+.main_content {
+  width: 100%;
+  height: 650px;
+  background-color: #dad6d1;
+  background-image: url(images/img.jpg);
+  vertical-align: middle;
+  display: table; }
+
+.centerdiv {
+  margin: 0 auto;
+  margin-top: 100px;
+  line-height: 200px;
+  height: 216.66667px;
+  width: 33.33333%;
+  padding: 20px 20px;
+  font: Helvetica;
+  font-size: 18px;
+  color: #CCC;
+  text-align: center;
+  background-color: #4d4d4d;
+  vertical-align: middle;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px; }
+
+/*# sourceMappingURL=main8.css.map */

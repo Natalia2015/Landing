@@ -1,0 +1,71 @@
+$main_content_width: 100%
+$main_content_height: 650px
+$main_color: rgb(255,79,33)
+
+
+//mixins
+=flex
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex 
+	
+=shade
+	-webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75)
+	-moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75)
+	box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.75)
+
+
+//LARGE screens
+.title
+	+shade
+	height: 70px
+	width: 100%
+	background-color: $main_color
+	margin: 10px
+
+.owl-carousel
+	order: 2
+	flex-basis: 92%
+
+
+//Medium screens
+//@media only screen and (max-width: 992px) {
+//.container1{
+//	justify-content: flex-start
+//	}
+////small screens
+//@media only screen and (max-width: 480px) {
+//.container1{
+//	flex-flow: column-wrap
+//	justify-content: flex-start
+//	}
+//}
+
+.main_content
+	width: $main_content_width
+	height: $main_content_height
+	background-color: #dad6d1
+	background-image: url(images/img.jpg)
+	vertical-align: middle
+	display: table
+
+.centerdiv
+	margin: 0 auto
+	margin-top: 100px
+	line-height: 200px
+	height: $main_content_height/3
+	width: $main_content_width/3
+	padding: 20px 20px
+	font: Helvetica
+	font-size: 18px
+	color: $text_color
+	text-align: center
+	background-color: darken($text_color,50%)
+	vertical-align: middle
+	+border-radius(3px)
+
+
+
+
